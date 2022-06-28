@@ -1,0 +1,62 @@
+.score-card {
+  width: 100%;
+  min-width: 380px;
+  max-width: 400px;
+  height: 70%;
+  padding-top: 75px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .score-card {
+    width: 100%;
+    min-width: 500px;
+    max-width: 500px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  }
+}
+
+.trophy-image {
+  width: 300px;
+  padding-top: 100px;
+  margin-bottom: 16px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.result-score {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.reset-button {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #cf60c8;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.reset-image {
+  margin-right: 5px;
+}

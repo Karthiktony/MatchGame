@@ -1,0 +1,21 @@
+.thumbnail-container {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
